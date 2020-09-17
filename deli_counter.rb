@@ -5,6 +5,8 @@ katz_deli = []
 def line(katz_deli)
   position = 1
   line = []
+  if 
+  
   if katz_deli.length >= 1
     katz_deli.each do |customer|
     line.push("#. #") 
