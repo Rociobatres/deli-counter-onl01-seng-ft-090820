@@ -3,6 +3,8 @@
 katz_deli = []
 
 def line(katz_deli)
+  position = 1
+  line = []
   if katz_deli.length >= 1
     katz_deli.each_with_index do |customer,idx|
       puts "The line is currently: #{idx + 1}. #{customer}" 
