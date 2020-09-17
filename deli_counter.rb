@@ -5,15 +5,15 @@ katz_deli = []
 def line(katz_deli)
   position = 1
   line = []
-  if katz_deli.length == 0 
+    if katz_deli.length == 0 
     puts "The line is currently empty." 
-  else   
+    else   
     katz_deli.length >= 1
     katz_deli.each do |customer|
     line.push("#. #") 
     position += 1 
     end   
-  end 
+  puts  
 end
 
 def take_a_number(katz_deli, name)
