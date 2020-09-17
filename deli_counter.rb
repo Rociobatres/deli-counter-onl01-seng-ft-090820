@@ -9,7 +9,6 @@ def line(katz_deli)
   else   
     katz_deli.each_with_index do |customer, position|
     line.push("#{position}, #{name}") 
-    position += 1 
   end   
   puts "The line is currently: #{line.join(" ")}"
 end 
