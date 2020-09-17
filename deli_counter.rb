@@ -9,7 +9,7 @@ def line(start)
   else   
     start.each.with_index(1) do |customer, position|
     line.push("#{position}. #{name}") 
-  end   
+    end   
   puts "The line is currently: #{line.join(" ")}"
 end 
 end
