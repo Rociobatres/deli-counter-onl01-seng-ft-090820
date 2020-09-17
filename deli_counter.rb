@@ -13,7 +13,7 @@ def line(katz_deli)
     line.push("#. #") 
     position += 1 
     end   
-  puts "The line is currently: " 
+  puts "The line is currently: #{line.join(" ")" 
 end
 
 def take_a_number(katz_deli, name)
