@@ -7,7 +7,7 @@ def line(katz_deli)
   line = []
   if katz_deli.length >= 1
     katz_deli.each do |customer|
-      puts "The line is currently: #{idx + 1}. #{customer}" 
+       
     end   
   else 
     puts "The line is currently empty."
