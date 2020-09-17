@@ -8,7 +8,7 @@ def line(start)
     puts "The line is currently empty." 
   else   
     start.each.with_index(1) do |customer, position|
-    line.push("#{position}. #{name}") 
+    line.push("#{position}. #{customer}") 
     end   
   puts "The line is currently: #{line.join(" ")}"
 end 
