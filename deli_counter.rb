@@ -7,7 +7,8 @@ def line(katz_deli)
   line = []
   if katz_deli.length >= 1
     katz_deli.each do |customer|
-    line.push("#. #")    
+    line.push("#. #") 
+    position += 1 
     end   
   else 
     puts "The line is currently empty."
