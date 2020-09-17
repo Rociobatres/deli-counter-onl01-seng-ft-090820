@@ -23,7 +23,7 @@ def now_serving(person)
   if person.empty? 
     puts "There is nobody waiting to be served!"
   else 
-   puts "Currently serving #{."
+   puts "Currently serving #{person[0]}."
    katz_deli.shift
   end
 end   
