@@ -5,7 +5,7 @@ katz_deli = []
 def line(katz_deli)
   position = 1
   line = []
-  if katz_deli.length
+  if katz_deli.length == 0 
   
   if katz_deli.length >= 1
     katz_deli.each do |customer|
