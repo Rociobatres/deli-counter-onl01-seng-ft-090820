@@ -24,8 +24,7 @@ def take_a_number(katz_deli, name)
 end   
 
 def now_serving(katz_deli)
-  case katz_deli.length 
-  
+  if katz_deli 
   when katz_deli.length > 0 
     katz_deli.first = name 
     puts "Currently serving #{name}."
