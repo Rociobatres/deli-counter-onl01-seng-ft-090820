@@ -10,7 +10,7 @@ def line(katz_deli)
   else   
     katz_deli.length >= 1
     katz_deli.each do |customer|
-    line.push("customer") 
+    line.push("# #") 
     position += 1 
   end   
   puts "The line is currently: #{line.join(" ")}"
